@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Add Student</title>
+  <link rel="stylesheet" href="s.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Add Student</h2>
+    <form action="add_student.php" method="POST">
+      <label>Name:</label>
+      <input type="text" name="name" required><br>
+
+      <label>Email:</label>
+      <input type="email" name="email" required><br>
+
+      <label>Phone:</label>
+      <input type="text" name="phone" required><br>
+
+      <label>Course:</label>
+      <input type="text" name="course" required><br>
+
+      <label>Attendance (%):</label>
+      <input type="number" name="attendance" min="0" max="100" required><br>
+
+      <label>Marks:</label>
+      <input type="number" name="marks" required><br>
+
+      <label>Total Fees:</label>
+      <input type="number" name="total_fee" value="50000" required><br>
+
+      <label>Fees Paid:</label>
+      <input type="number" name="fee_paid" required><br>
+
+      <button type="submit">Add Student</button>
+    </form>
+
+    <a href="index.html" style="text-decoration: none; border: 1px solid black; color: black; padding: 10px; margin-left: 50px; border-radius: 10px;" >⬅ Back</a>
+  </div>
+</body>
+
+</html>

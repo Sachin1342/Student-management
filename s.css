@@ -1,0 +1,93 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #8089b0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  height: 120vh;
+  margin: auto;
+  padding: 20px;
+  background: #ffffff5b;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  
+
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  background: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+
+}
+
+nav a:hover {
+  background: #7ebcc3;
+  color: black;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 230px;
+}
+
+input, select, button {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 60%;
+  margin-left: 230px;
+}
+
+button {
+  margin-top: 20px;
+  background: #2ecc71;
+  color: white;
+  border: none;
+  margin-left: 230px;
+}
+
+button:hover {
+  background: #27ae60;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
